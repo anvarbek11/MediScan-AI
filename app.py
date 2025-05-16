@@ -9,8 +9,8 @@ from voice_of_the_patient import record_audio, transcribe_with_groq
 from voice_of_the_doctor import text_to_speech_with_gtts, text_to_speech_with_elevenlabs
 
 # Direct API keys implementation
-GROQ_API_KEY = "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"
-ELEVENLABS_API_KEY = "sk_2a0f49fb03a7ee81c8d28740d2485d5fe21251b739b73550"
+GROQ_API_KEY = "your key"
+ELEVENLABS_API_KEY = "your key"
 
 # Audio output directory setup
 AUDIO_DIR = "/app/audio_output"
