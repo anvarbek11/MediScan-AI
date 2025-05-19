@@ -72,7 +72,8 @@ MediScan-AI/
 ## License 📜
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+---
+📌 **Author**: Anvarbek Kuziboev  
+📄 **Note**: This project is part of my personal portfolio.  
+🚫 Unauthorized copying or use without attribution is not permitted.
 
-## Disclaimer ⚠️
-
-> **Important**: This AI assistant is for educational purposes only. Always consult a qualified healthcare professional for medical advice.
