@@ -30,7 +30,7 @@ import elevenlabs
 from elevenlabs.client import ElevenLabs
 
 # Direct API key implementation
-ELEVENLABS_API_KEY = "sk_2a0f49fb03a7ee81c8d28740d2485d5fe21251b739b73550"
+ELEVENLABS_API_KEY = "yourapi"
 
 def text_to_speech_with_elevenlabs_old(input_text, output_filepath):
     full_path = os.path.join(AUDIO_DIR, output_filepath)
@@ -75,7 +75,7 @@ def text_to_speech_with_gtts(input_text, output_filepath):
 def text_to_speech_with_elevenlabs(input_text, output_filepath):
     full_path = os.path.join(AUDIO_DIR, output_filepath)
     try:
-        client = ElevenLabs(api_key="sk_2a0f49fb03a7ee81c8d28740d2485d5fe21251b739b73550")
+        client = ElevenLabs(api_key="yorapi")
         audio = client.generate(
             text=input_text,
             voice="Aria",
