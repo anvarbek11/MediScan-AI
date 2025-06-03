@@ -4,7 +4,7 @@ import base64
 from groq import Groq
 
 # Direct API key implementation
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "your api"
 
 #Step2: Convert image to required format
 def encode_image(image_path):   
