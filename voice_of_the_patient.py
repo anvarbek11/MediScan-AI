@@ -51,7 +51,7 @@ import os
 from groq import Groq
 
 # Direct API key implementation
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "yourapi"
 stt_model="whisper-large-v3"
 
 def transcribe_with_groq(stt_model, audio_filepath, GROQ_API_KEY):
